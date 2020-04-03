@@ -8,7 +8,7 @@ int main(int argv, char** argc)
     try
     {
         std::cout << "Hello World!" << std::endl;
-        std::string path("../../COVID-19/csse_covid_19_data/csse_covid_19_time_series/");
+        std::string path("../csse_covid_19_data/csse_covid_19_time_series/");
         calculation calc;
         calc.download_from_files(
                     std::string(path + "time_series_covid19_confirmed_global.csv"),
